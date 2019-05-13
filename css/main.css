@@ -1,0 +1,245 @@
+*,*:after,*:before
+{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+
+body
+{
+    background-color:rgb(128, 123, 123);
+}
+div.clear{clear: both;}
+
+.container
+{
+    background-color:rgb(196, 138, 138);
+    width: 100%;
+    margin: 0 auto;
+
+}
+ul,li
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+/***********************************header*********************************/
+.container section header
+{
+    width: 100%;
+    height: 80px;
+    background: white;
+    position: relative;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.container section header nav a.login
+{
+    color:black;
+    text-decoration: none;
+    position: absolute;
+    right: 50px;    
+    top:50%;
+    font-weight: bolder;
+    line-height: 50%;
+}   
+.container section header nav a.login:hover
+{
+    color:#1C9AD6; 
+    
+}
+.container section header nav ul 
+{
+    margin: 20px;
+    position: absolute;
+    left:10%;
+    bottom: 10%;
+}
+.container section header nav ul li {
+    display: inline;
+    margin-left: 26px;
+}
+.container section header nav ul li a
+{
+    text-decoration: none;
+    color:black;
+}
+.container section header .logo
+{
+    font-size: 40px;
+    text-align: center;
+    width: 7%;
+    margin: 25px;
+    line-height: 50%;
+}
+.container section header .logo a{
+    text-decoration: none;
+    color:#444;
+}
+
+.container section header .logo span
+{
+    color:#1C9AD6;
+}
+/*****************************content**********************************/
+section.safe .content
+{
+    width: 100%;
+    background: url(../images/cover1.jpg);
+    height: 600px;
+    background-size: cover;
+    
+}
+section.safe .content div.heading
+{
+    float: left;
+    margin-top: 10%;
+    margin-left: 5%;
+    color:white;
+    font-size: 20px;
+    
+}
+section.safe .content div.heading h1
+{
+    font-weight: normal;
+    font-size: 50px;
+}
+section.safe .content div.heading button
+{
+    background: orangered;
+    outline:none;
+    border:0px;
+    padding:15px 40px 15px 40px; 
+    border-radius: 99999px;
+    color:white;
+
+    cursor: pointer;
+    transform: translateY(-2);
+    transition: all 0.3s ease-in-out;
+}
+section.safe .content div.heading button:hover{
+    transform: scale(1.1);
+}
+/************************navbar Cams Part**************************/
+section.safe .navcams
+{
+    width: 100%;
+    background: #F6F8FA;
+    height: 250px;
+    padding:0;
+    text-align: center;
+}
+section.safe .navcams .cams 
+{
+    display: inline-block;
+    width:23%;
+    text-align: center;
+    padding-top: 7%;
+}
+section.safe .navcams .cams img 
+{
+    width:100px;
+    height:100px;
+}
+section.safe .navcams .cams a 
+{
+    text-decoration: none;
+    color:black;
+}
+section.safe.navcams .cams a:hover
+{
+    color:#1C9AD6;
+}
+/********************************Seaction Peace**************************/
+
+section .peace 
+{
+    width:100%;
+    margin:0;
+    padding:10%;
+
+    background: white;
+    text-align: center;    
+}
+section .peace .contentPeace .img 
+{
+    width:44%;
+}
+section .peace .contentPeace .img  img{
+    width:100%;
+}
+section.peace .contentPeace div.text
+{
+    width:55%;
+    float: right;
+    display: inline-block;
+    padding-left:5%;
+    margin:0;
+    line-height: 50px;
+    text-align: center;
+   
+}
+section.peace .contentPeace div.text h1{
+    font-size: 50px;
+    font-weight: normal;
+    color: #555 ;
+    padding-top:15%;
+}
+section.peace .contentPeace div.text p{
+    font-size: 20px;
+    color:#777;
+}
+/**********************How it works********************************/
+section.how{
+    height: 700px;
+    background: #F6F8FA;
+    margin: 0;
+    padding:0;
+}
+section div.how
+{
+    width:100%;
+    text-align: center;
+    background: #F6F8FA;
+    margin: 0;
+    padding:0;
+}
+section div.how .head
+{
+    padding-bottom: 5%;
+    color:black;
+    font-size: 50px;
+    height:30px;
+    padding-top:7%;
+    width:100%;
+    color:#666;
+    letter-spacing: 5px;
+}
+
+section div.how .img
+{
+    width:27%;
+    display: inline-block;
+    
+}
+section div.how .img img
+{
+    width:100%;
+    
+}
+section div.how .img p 
+{
+    font-size: 17px;
+    color:#666;
+}
+section div.how .img p span
+{
+    font-weight: bold;
+    color:#333;
+}
