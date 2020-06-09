@@ -1,552 +1,562 @@
-*,*:after,*:before
-{
-    margin:0;
-    padding:0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
-body
-{
-    background-color:white;    
-}
-div.clear
-{
-    clear: both;
+body {
+  background-color: white;
 }
 
-.container
-{
-    background-color:white;
-    width: 100%;
-    margin: 0 auto;
+div.clear {
+  clear: both;
 }
-ul,li
-{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+
+.container {
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
+
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
 /***********************************header*********************************/
-.container section header
-{
-    width: 100%;
-    height: 80px;
-    background: white;
-    position: relative;
-    font-size: 17px;
-    font-weight: bold;
-    display: inline-block;
+.container section header {
+  width: 100%;
+  height: 80px;
+  background: white;
+  position: relative;
+  font-size: 17px;
+  font-weight: bold;
+  display: inline-block;
+} 
+
+.container section header nav a.login {
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  right: 50px;
+  top: 40%;
+  font-weight: bolder;
 }
 
-.container section header nav a.login
-{
-    color:black;
-    text-decoration: none;
-    position: absolute;
-    right: 50px;    
-    top:40%;
-    font-weight: bolder;
-}   
-.container section header nav ul 
-{
-    margin: 20px;
-    position: absolute;
-    left:10%;
-    bottom: 10%;
+.container section header nav ul {
+  margin: 20px;
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
 }
+
 .container section header nav ul li {
-    display: inline;
-    margin-left: 26px;
+  display: inline;
+  margin-left: 26px;
 }
-.container section header nav ul li a
-{
-    text-decoration: none;
-    color:black;
+
+.container section header nav ul li a {
+  text-decoration: none;
+  color: black;
 }
+
 .container section header nav a.login:hover,
-.container section header nav ul li a:hover
-{
-    color:#1C9AD6;     
+.container section header nav ul li a:hover {
+  color: #1C9AD6;
 }
 
-.container section header .logo
-{
-    font-size: 40px;
-    text-align: center;
-    width: 7%;
-    margin: 25px;
-    line-height: 50%;
-}
-.container section header .logo a{
-    text-decoration: none;
-    color:#444;
+.container section header .logo {
+  font-size: 40px;
+  text-align: center;
+  width: 7%;
+  margin: 25px;
+  line-height: 50%;
 }
 
-.container section header .logo span
-{
-    color:#1C9AD6;
+.container section header .logo a {
+  text-decoration: none;
+  color: #444;
 }
+
+.container section header .logo span {
+  color: #1C9AD6;
+}
+
 /****************************** header number 2 [slider]*****************************************/
-.container section header.slider
-{
-    display: none;
-    z-index: 9999;
-    position: fixed;
-    margin: 0 auto;
-    padding: 0;
+.container section header.slider {
+  display: none;
+  z-index: 9999;
+  position: fixed;
+  margin: 0 auto;
+  padding: 0;
 }
+
 /*****************************content**********************************/
-section.safe .content
-{
-    width: 100%;
-    background: url(../images/cover1.jpg);
-    height: 600px;
-    background-size: cover;
-    
+section.safe .content {
+  width: 100%;
+  background: url(../images/cover1.jpg);
+  height: 600px;
+  background-size: cover;
+
 }
-section.safe .content div.heading
-{
-    float: left;
-    margin-top: 10%;
-    margin-left: 5%;
-    color:white;
-    font-size: 20px;
-    
+
+section.safe .content div.heading {
+  float: left;
+  margin-top: 10%;
+  margin-left: 5%;
+  color: white;
+  font-size: 20px;
+
 }
-section.safe .content div.heading h1
-{
-    font-weight: normal;
-    font-size: 50px;
-    
+
+section.safe .content div.heading h1 {
+  font-weight: normal;
+  font-size: 50px;
+  
+
 }
-section.safe .content div.heading button
-{
-    background: orangered;
-    outline:none;
-    border:0px;
-    padding:15px 40px 15px 40px; 
-    border-radius: 99999px;
-    color:white;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
+
+section.safe .content div.heading button {
+  background: orangered;
+  outline: none;
+  border: 0px;
+  padding: 15px 40px 15px 40px;
+  border-radius: 99999px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
-section.safe .content div.heading button:hover{
-    transform: scale(1.1);
+
+section.safe .content div.heading button:hover {
+  transform: scale(1.1);
 }
+
 /************************navbar Cams Part**************************/
-section.safe .navcams
-{
-    width: 100%;
-    background: #F6F8FA;
-    height: 250px;
-    padding:0;
-    text-align: center;
+section.safe .navcams {
+  width: 100%;
+  background: #F6F8FA;
+  height: 250px;
+  padding: 0;
+  text-align: center;
 }
-section.safe .navcams .cams 
-{
-    display: inline-block;
-    width:23%;
-    text-align: center;
-    padding-top: 7%;
+
+section.safe .navcams .cams {
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+  padding-top: 7%;
 }
-section.safe .navcams .cams img 
-{
-    width:100px;
-    height:100px;
+
+section.safe .navcams .cams img {
+  width: 100px;
+  height: 100px;
 }
-section.safe .navcams .cams a 
-{
-    text-decoration: none;
-    color:black;
+
+section.safe .navcams .cams a {
+  text-decoration: none;
+  color: black;
 }
-section.safe.navcams .cams a:hover
-{
-    color:#1C9AD6;
+
+section.safe.navcams .cams a:hover {
+  color: #1C9AD6;
 }
+
 /********************************Seaction Peace**************************/
 
-section .peace 
-{
-    width:100%;
-    margin:0;
-    padding:10%;
-    background: white;
-    text-align: center;    
+section .peace {
+  width: 100%;
+  margin: 0;
+  padding: 10%;
+  background: white;
+  text-align: center;
 }
-section .peace .contentPeace .img 
-{
-    width:50%;
+
+section .peace .contentPeace .img {
+  width: 50%;
 }
-section .peace .contentPeace .img  img{
-    width:100%;
+
+section .peace .contentPeace .img img {
+  width: 100%;
 }
-section.peace .contentPeace div.text
-{
-    width:50%;
-    float: right;
-    padding-left:5%;
-    margin:0;   
-    line-height: 50px;
-    text-align: left;
-   
+
+section.peace .contentPeace div.text {
+  width: 50%;
+  float: right;
+  padding-left: 5%;
+  margin: 0;
+  line-height: 50px;
+  text-align: left;
 }
-section.peace .contentPeace div.text h1{
-    font-size: 50px;
-    font-weight: normal;
-    color: #555 ;
-    padding-top:15%;
-    
+
+section.peace .contentPeace div.text h1 {
+  font-size: 50px;
+  font-weight: normal;
+  color: #555;
+  padding-top: 0;
+  margin: 0;
+
 }
-section.peace .contentPeace div.text p{
-    font-size: 20px;
-    color:#777;
+
+section.peace .contentPeace div.text p {
+  font-size: 20px;
+  color: #777;
 }
+
 /**********************How it works********************************/
-section.how{
-    height: 700px;
-    background: #F6F8FA;
-    margin: 0;
-    padding:0;
-}
-section div.how
-{
-    width:100%;
-    text-align: center;
-    background: #F6F8FA;
-    margin: 0;
-    padding:0;
-}
-section div.how .head
-{
-    padding-bottom: 5%;
-    color:black;
-    font-size: 50px;
-    height:30px;
-    padding-top:7%;
-    width:100%;
-    color:#666;
-    letter-spacing: 5px;
+section.how {
+  height: 700px;
+  background: #F6F8FA;
+  margin: 0;
+  padding: 0;
 }
 
-section div.how .img
-{
-    width:27%;
-    display: inline-block;
-    
+section div.how {
+  width: 100%;
+  text-align: center;
+  background: #F6F8FA;
+  margin: 0;
+  padding: 0;
 }
-section div.how .img img
-{
-    width:100%;
-    
+
+section div.how .head {
+  padding-bottom: 5%;
+  color: black;
+  font-size: 50px;
+  height: 30px;
+  padding-top: 7%;
+  width: 100%;
+  color: #666;
+  letter-spacing: 5px;
 }
-section div.how .img p 
-{
-    font-size: 17px;
-    color:#666;
+
+section div.how .img {
+  width: 27%;
+  display: inline-block;
+
 }
-section div.how .img p span
-{
-    font-weight: bold;
-    color:#333;
+
+section div.how .img img {
+  width: 100%;
+
 }
+
+section div.how .img p {
+  font-size: 17px;
+  color: #666;
+}
+
+section div.how .img p span {
+  font-weight: bold;
+  color: #333;
+}
+
 /******************************Section alexa****************************/
-section .alexa 
-{
-    height:850px;
-    width:100%;
-    margin:0;
-    padding:10%;
-    background: white;
-        
-}
-section .alexa .contentAlexa .img 
-{
-    width:50%;
-    float: right;
-}
-section .alexa .contentAlexa .img  img{
-    width:100%;
+section .alexa {
+  height: 850px;
+  width: 100%;
+  padding: 10%;
+  background: white;
+  text-align: center;
 }
 
-section.alexa .contentAlexa div.text
-{
-    width:45%;
-    float: left;
-    margin:0;
-    line-height: 50px;
-    text-align: left;
+section .alexa .contentAlexa .img {
+  width: 50%;
+  float: right;
 }
 
-section.alexa .contentAlexa div.text h1{
-    font-size: 50px;
-    font-weight: lighter;
-    color: #666 ;
-    padding-top:15%;
+section .alexa .contentAlexa .img img {
+  width: 100%;
 }
-section.alexa .contentAlexa div.text p{
-    font-size: 20px;
-    color:#777;
+
+section.alexa .contentAlexa div.text {
+  width: 45%;
+  float: left;
+  margin: 0;
+  line-height: 40px;
+  text-align: left;
 }
+
+section.alexa .contentAlexa div.text h1 {
+  font-size: 50px;
+  font-weight: lighter;
+  color: #666;
+  padding-top: 0;
+  margin: 0;}
+
+section.alexa .contentAlexa div.text p {
+  font-size: 20px;
+  color: #777;
+}
+
 /******************************Section extra****************************/
-section .extra 
-{
-    height:800px;
-    width:100%;
-    margin:0;
-    padding:0 10% 0 10%;
-    background: white;
-        
-}
-section .extra .contentextra .img 
-{
-    width:50%;
-    float: left;
-}
-section .extra .contentextra .img  img{
-    width:100%;
+section .extra {
+  height: 850px;
+  width: 100%;
+  margin: 0;
+  padding: 0 10% 0 10%;
+  background: white;
+
 }
 
-section.extra .contentextra div.text
-{
-    width:45%;
-    float: right;
-    margin:0;
-    text-align: left;
+section .extra .contentextra .img {
+  width: 50%;
+  float: left;
 }
 
-section.extra .contentextra div.text h1{
-    font-size: 45px;
-    font-weight: lighter;
-    color: #666 ;
-    line-height: 50px;
-    padding-top:7%;
-    letter-spacing: 3px;
+section .extra .contentextra .img img {
+  width: 100%;
+  min-height: 100%;
 }
-section.extra .contentextra div.text  #bp,#cp,#dp{
-    font-size: 17px;
-    color:#777;
-    line-height: 40px;
+
+section.extra .contentextra div.text {
+  width: 45%;
+  float: right;
+  margin: 0;
+  text-align: left;
+  line-height: 40px;
+
 }
-#ap
-{
-    margin-bottom: 40px;
-    font-size: 20px;
-    color:#777;
-    line-height: 40px;
+
+section.extra .contentextra div.text h1 {
+  font-size: 45px;
+  font-weight: lighter;
+  color: #666;
+  letter-spacing: 3px;
+  margin: 0;
 }
-#a
-{
-    margin-left: 15px
+
+section.extra .contentextra div.text #bp,
+#cp,
+#dp {
+  font-size: 17px;
+  color: #777;
+  line-height: 40px;
 }
-#b,#c,#d
-{
-    margin: 0 0 10px 50px ;
+
+#ap {
+  font-size: 20px;
+  color: #777;
+  line-height: 40px;
 }
+
+
+#b,
+#c,
+#d {
+  margin: 20px 0 0 0;
+}
+
 /****************************************Choose****************************************/
-section.choose .chooseContent
-{
-    width: 100%;
-    height: 1000px;
-    padding: 7%;
-    display:inline-block;
-    text-align: center;
+section.choose .chooseContent {
+  width: 100%;
+  height: 1000px;
+  padding: 7%;
+  display: inline-block;
+  text-align: center;
 }
-section.choose .chooseContent h1
-{
-    font-size: 36px;
-    height: 30px;
-    color: #555;
+
+section.choose .chooseContent h1 {
+  font-size: 36px;
+  height: 30px;
+  color: #555;
 }
-section.choose .chooseContent a
-{
-    font-size: 17px;
-    color:#1C9AD6;    
+
+section.choose .chooseContent a {
+  font-size: 17px;
+  color: #1C9AD6;
 }
-section.choose .chooseContent a:hover
-{
-    color:#222;
+
+section.choose .chooseContent a:hover {
+  color: #222;
 }
+
 section.choose .chooseContent .stickup,
 section.choose .chooseContent .spotlight,
-section.choose .chooseContent .floodlight
-{
-    float: left;
-    width: 30%;
-    height: 600px;
-    padding: 10px;
-    background: #F6F8FA;
-    border-radius: 30px;
+section.choose .chooseContent .floodlight {
+  float: left;
+  width: 30%;
+  height: 600px;
+  padding: 10px;
+  background: #F6F8FA;
+  border-radius: 30px;
 
-    margin-left: 22px;
+  margin-left: 22px;
 }
-section.choose .chooseContent .stickup img
-{
-    width: 120px;
-    height: 120px;
 
-}
-section.choose .chooseContent .stickup .allinfo
-{
-    width: 100%;
-    display: inline-block;
-    text-align: center;
+section.choose .chooseContent .stickup img {
+  width: 120px;
+  height: 120px;
 
 }
-section.choose .chooseContent .stickup .allinfo .icon1
-{
-    width:40%;
-    float: left;
-    margin-top: 50px;
+
+section.choose .chooseContent .stickup .allinfo {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+
 }
-section.choose .chooseContent .stickup .allinfo .icon1 img
-{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    padding: 0;
-    
+
+section.choose .chooseContent .stickup .allinfo .icon1 {
+  width: 40%;
+  float: left;
+  margin-top: 50px;
 }
-section.choose .chooseContent .stickup .allinfo .text1
-{
-    width: 70%;
-    float: right;
-    font-size: 12px;
+
+section.choose .chooseContent .stickup .allinfo .icon1 img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  padding: 0;
+
 }
-section.choose .chooseContent .stickup a button 
-{
-    background: orangered;
-    outline:none;
-    border:0px;
-    margin-top: 10%;
-    padding:15px 40px 15px 40px; 
-    border-radius: 99999px;
-    color:white;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
+
+section.choose .chooseContent .stickup .allinfo .text1 {
+  width: 70%;
+  float: right;
+  font-size: 12px;
 }
-section.choose .chooseContent .stickup a button:hover 
-{
-    transform: scale(1.1);
+
+section.choose .chooseContent .stickup a button {
+  background: orangered;
+  outline: none;
+  border: 0px;
+  margin-top: 10%;
+  padding: 15px 40px 15px 40px;
+  border-radius: 99999px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
+
+section.choose .chooseContent .stickup a button:hover {
+  transform: scale(1.1);
+}
+
 /********************************************* Section Trouble ********************************************/
-section.trouble div.troubleContent
-{
-    width: 100%;
-    height:250px;
-    text-align: center;
+section.trouble div.troubleContent {
+  width: 100%;
+  height: 250px;
+  text-align: center;
 }
-section.trouble div.troubleContent h2{
-    padding-bottom: 10px;
-    color: #444;
+
+section.trouble div.troubleContent h2 {
+  padding-bottom: 10px;
+  color: #444;
 }
-section.trouble div.troubleContent h4
-{
-    color: #666;
-    font-size: 17px;
-    margin-bottom: 25px;    
+
+section.trouble div.troubleContent h4 {
+  color: #666;
+  font-size: 17px;
+  margin-bottom: 25px;
 }
-section.trouble div.troubleContent button
-{
-    background: none;
-    outline:none;
-    border: 1px solid #1C9AD6;
-    margin: 10px;
-    padding:15px 40px 15px 40px; 
-    border-radius: 99999px;
-    color:#1C9AD6;
-    width: 200px;
-    cursor: pointer;
+
+section.trouble div.troubleContent button {
+  background: none;
+  outline: none;
+  border: 1px solid #1C9AD6;
+  margin: 10px;
+  padding: 15px 40px 15px 40px;
+  border-radius: 99999px;
+  color: #1C9AD6;
+  width: 200px;
+  cursor: pointer;
 
 }
-section.trouble div.troubleContent button:hover{
-    background:#1C9AD6;
-    color: white;
-}   
-/************************************* footer ************************************/
-section.footer .footercontent
-{
-    width: 100%;
-    height:230px;
-    color: #777;
-    display: flex;
-    margin:0 auto;
-    background: #F1F1F1;
-    padding-top: 3%;
+
+section.trouble div.troubleContent button:hover {
+  background: #1C9AD6;
+  color: white;
 }
+
+/************************************* footer ************************************/
+section.footer .footercontent {
+  width: 100%;
+  height: 230px;
+  color: #777;
+  display: flex;
+  margin: 0 auto;
+  background: #F1F1F1;
+  padding-top: 3%;
+}
+
 section.footer .footercontent .one,
 section.footer .footercontent .two,
 section.footer .footercontent .three,
 section.footer .footercontent .four,
-section.footer .footercontent .five
-{
-    width: 10%;
-    height: 150px;
-    margin-left: 5%;
-    padding: 5px;
+section.footer .footercontent .five {
+  width: 10%;
+  height: 150px;
+  margin-left: 5%;
+  padding: 5px;
 }
 
 section.footer .footercontent .one,
 section.footer .footercontent .three,
-section.footer .footercontent .five
-{
-    border-left: 1px solid #777;
+section.footer .footercontent .five {
+  border-left: 1px solid #777;
 }
-section.footer .footercontent .five
-{
-    width:27%;
-    margin-left: 10%;
+
+section.footer .footercontent .five {
+  width: 27%;
+  margin-left: 10%;
 }
-section.footer .footercontent .five .input
-{
-    border: 0;
-    padding: 10px;
-    margin-left: 3%;
+
+section.footer .footercontent .five .input {
+  border: 0;
+  padding: 10px;
+  margin-left: 3%;
 }
-section.footer .footercontent .five .submit
-{
-    background-color: white;
-    color: #1C9AD6;
-    font-weight: bolder;
-    border:0;
-    padding: 10px;
-    margin-left: 0;
-    cursor: pointer;
+
+section.footer .footercontent .five .submit {
+  background-color: white;
+  color: #1C9AD6;
+  font-weight: bolder;
+  border: 0;
+  padding: 10px;
+  margin-left: 0;
+  cursor: pointer;
 }
-section.footer .footercontent .five ul
-{
-    padding-left: 7%;
+
+section.footer .footercontent .five ul {
+  padding-left: 7%;
 }
-section.footer .footercontent .five ul li 
-{
-    display:inline-block;
-    
+
+section.footer .footercontent .five ul li {
+  display: inline-block;
+
 }
-section.footer .footercontent .five ul li a img
-{
-    width: 20px;
-    height:20px;
+
+section.footer .footercontent .five ul li a img {
+  width: 20px;
+  height: 20px;
 }
-section.footer .footercontent h4
-{
-    color: #222;
-    padding: 2% 0 2% 5%;
+
+section.footer .footercontent h4 {
+  color: #222;
+  padding: 2% 0 2% 5%;
 }
-section.footer .footercontent ul{
-    padding-top: 7%;   
+
+section.footer .footercontent ul {
+  padding-top: 7%;
 }
-section.footer .footercontent ul li 
-{
-    padding: 5% 0 0 5%; 
+
+section.footer .footercontent ul li {
+  padding: 5% 0 0 5%;
 }
-section.footer .footercontent ul li a
-{
-    text-decoration: none;
-    font-size: 12px;
+
+section.footer .footercontent ul li a {
+  text-decoration: none;
+  font-size: 12px;
 }
-section.footer .footercontent ul li a:hover
-{
-    color:#1C9AD6;
+
+section.footer .footercontent ul li a:hover {
+  color: #1C9AD6;
 }
